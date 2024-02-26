@@ -98,7 +98,7 @@ public class MovieControllerRA {
                 .when()
                 .post("/movies")
                 .then()
-                .statusCode(404);
+                .statusCode(422);
     }
 
     @Test
